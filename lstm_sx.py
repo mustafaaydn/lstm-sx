@@ -10,7 +10,7 @@ MEAS_NOISE_STD = 0.01
 UPD_NOISE_STD  = 0.1
 
 
-class PF_LSTMAX:
+class LSTM_SX:
     def __init__(self, lstm_hidden_size=20,
                  sx_order=(1, 0, 0), sx_seas_order=None,
                  exog=None,
